@@ -72,7 +72,7 @@ app.get('*', (req, res) => {
     .pipe(res)
 })
 console.log('fadfasfdasfdasf');
-
+console.log('test222')
 const port = process.env.PORT || 3000
 app.listen(port, () => {
   console.log(`server started at http://localhost:${port}`)
