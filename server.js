@@ -73,7 +73,6 @@ app.get('*', (req, res) => {
 })
 console.log('fadfasfdasfdasf');
 console.log('test222')
-console.log('test333')
 const port = process.env.PORT || 3000
 app.listen(port, () => {
   console.log(`server started at http://localhost:${port}`)
