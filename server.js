@@ -71,7 +71,6 @@ app.get('*', (req, res) => {
     .on('end', () => console.log(`whole request: ${Date.now() - s}ms`))
     .pipe(res)
 })
-console.log('fasdfasdf')
 const port = process.env.PORT || 3000
 app.listen(port, () => {
   console.log(`server started at http://localhost:${port}`)
