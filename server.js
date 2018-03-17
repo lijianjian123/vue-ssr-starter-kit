@@ -71,6 +71,7 @@ app.get('*', (req, res) => {
     .on('end', () => console.log(`whole request: ${Date.now() - s}ms`))
     .pipe(res)
 })
+
 111
 222
 
